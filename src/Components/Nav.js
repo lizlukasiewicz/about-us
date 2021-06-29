@@ -1,14 +1,18 @@
-import { Link } from 'react-router-dom'
+import { 
+    BrowserRouter as Router,
+    Link } from 'react-router-dom'
 
 export default function Nav() {
     return(
-        <div className="navBar" >
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/people">Our Team</Link></li>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul className="navbar-nav">
+                <Router>
+                <li className="nav-item"><Link to="/"> - Home - </Link></li>
+                <li className="nav-item"><Link to="/about"> - About us - </Link></li>
+                <li className="nav-item"><Link to="/people"> - Our Team - </Link></li>
+                </Router>
             </ul>
 
-        </div>
+        </nav>
     )
 }
