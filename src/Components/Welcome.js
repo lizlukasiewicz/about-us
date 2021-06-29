@@ -1,25 +1,26 @@
 export default function Welcome() {
     return(
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img class="d-block w-100" src="..." alt="First slide"/>
+    <div idName="carouselExampleControls" className="carousel slide" data-ride="carousel">
+        <div className="carousel-inner">
+            <div className="carousel-item active">
+            <img className="d-block w-100" src="https://media.istockphoto.com/photos/3d-rendering-of-corporate-buildings-with-sunlight-picture-id1135793300?k=6&amp;m=1135793300&amp;s=612x612&amp;w=0&amp;h=nInQIXpya3eY3Et1fBBQ39AVUMCo22A_Ud4EjEUygmQ=" alt="First slide"></img>
             </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide"/>
+            <div className="carousel-item">
+            <img className="d-block w-100" src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Second slide"></img>
             </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide"/>
+            <div className="carousel-item">
+            <img className="d-block w-100" src="https://media.istockphoto.com/photos/3d-rendering-of-corporate-buildings-with-sunlight-picture-id1135793300?k=6&amp;m=1135793300&amp;s=612x612&amp;w=0&amp;h=nInQIXpya3eY3Et1fBBQ39AVUMCo22A_Ud4EjEUygmQ=" alt="Third slide"></img>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
         </a>
     </div>
     )
+
 }
