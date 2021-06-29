@@ -1,4 +1,4 @@
-people = [
+const people = [
     {
         id: 1,
         name: 'Liz',
@@ -6,12 +6,13 @@ people = [
     },
     {
         id: 2,
-        name: Erik,
+        name: 'Erik',
         imgSrc: 'https://media.glamour.com/photos/56964cd993ef4b095210515b/16:9/w_1280,c_limit/fashion-2015-10-cute-baby-turtles-main.jpg'
     },
     {
         id: 3,
-        name: Benji,
+        name: 'Benji',
         imgSrc: 'https://static.boredpanda.com/blog/wp-content/uploads/2014/03/cute-fluffy-animals-coverimage.jpg'
-    },
+    }
 ]
+export default people

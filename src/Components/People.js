@@ -1,5 +1,5 @@
 import { useState } from "react"
-// import Person from './Components/Person'
+import Person from './Person'
 import people from '../data/peopleData'
 
 export default function People() {
